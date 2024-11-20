@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+
+<body>
+    <center><img src="./images/TSRTC_LOGO.png" alt="logo" width="50" height="50"></center>
+    <center>
+        <h2>TELANGANE STATE ROAD TRANSPORT CORPORATION</h2>
+    </center>
+    <center>
+        <h2>GENERAL BUS PASS APPLICATION</h2>
+    </center>
+
+
+    <form action="./response.html" method="get">
+
+       
+            <fieldset>
+                <legend><big><b>Application Details</b></big></legend>
+                
+                    
+                &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<b>Name:</b>&emsp;&emsp;&emsp;&emsp; <input type="text" max length="20"> &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<b>Father's /Guardian's Name:</b> <input type="text"><br><br>
+                         
+                &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<b>Date of Birth:</b>&emsp; <input type="text">&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; <b>Gender:</b> &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<input type="radio" id="Female" name="gender">
+                            <label for="Female">Female</label>
+                            <input type="radio" id="Male" name="gender">
+                            <label for="Male">Male</label><br><br>
+                    
+                &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<b>Age As on:</b> &emsp;&emsp;<input type="text" size="1"> year(s) <input type="text" size="1"> month(s) <input type="text" size="1"> day(s) &emsp;&emsp;&ensp; <b>Aadhaar Number:</b> &emsp;&emsp;&emsp;&ensp;<input type="text"><br><br>
+                       
+                &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<b>WhatsApp No:</b> &ensp;<input type="text"> &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; <b>Email Id:</b>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; <input type="text"><br><br>
+                        
+                &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<b>Photo:</b> &emsp;&emsp;&emsp;&emsp;<input type="file" id="myfile" name="myfile">
+                            <label for="myfile"></label>
+                           
+                    
+
+
+            </fieldset>
+            <fieldset>
+                    <legend><big><b>Residential Address Details</b></big></legend>
+                    
+                &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<label for="address"><b>Applicants Address:</b></label>&emsp;<textarea id="address"  rows="2" cols="25"></textarea>
+                                <br><br>
+                &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<label for="District"><b>District:</b></label>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<select name="District" id="District">
+                                <option value="hyderabad">HYDERABAD</option>
+                                </select><br><br>
+                &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<label for="Mandal"><b>Mandal:</b></label>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<select name="Mandal" id="Mandal">
+                                <option value="hyderabad">HYDERABAD</option>
+                                </select> <br><br>
+                &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<label for="Village :"><b>Village:</b></label>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<select name="Village" id="Village">
+                                <option value="hyderabad">HYDERABAD</option>
+                                </select><br><br>
+                            
+                &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<b>Pincode:</b>&ensp;&emsp;&emsp;&emsp;&emsp;&emsp;<input type="text"> 
+                            
+
+                   
+            </fieldset>
+            <fieldset>
+                <legend><big><b>Pass Type Details</b></big></legend>
+                
+                &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<label for="City"><b>City:</b></label>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<select name="City:" id="City">
+                        <option value="hyderabad">HYDERABAD</option>
+                        </select>  <br><br> 
+                &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<label for="Pass Type"><b>Pass Type:</b></label>&emsp;&emsp;&emsp;&ensp;<select name="Village" id="Village">
+                            <option value="-----Select-----">-----Select-----</option>
+                            <option value="Greater Pass">Greater Pass</option>
+                            <option value="Ordinary Pass">Ordinary Pass</option>
+                            <option value="Metro Express Pass">Metro Express Pass</option>
+                            <option value="Metro Deluxe Pass">Metro Deluxe Pass</option>
+                        </select>
+               
+               
+            </fieldset>
+            <fieldset>
+                <legend><big><b>Mode of Payment & Pass Collection</b></big></legend>
+                &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<label for="City"><b>Payment Mode:</b></label>&emsp;&emsp;&emsp;&emsp;<select name="Payment Mode" id="Payment Mode">
+                            <option value="hyderabad">Select Payment Method</option>
+                            <option value="Payment at Counter">Payment at Counter</option>
+                        </select><br><br>
+                &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<label for="Pass Delivery Mode"><b>Pass Delivery Mode:</b></label>&emsp;&emsp;<select name="Pass Delivery Mode" id="Pass Delivery Mode">
+                            <option value="hyderabad">Select Pass Delivery Mode</option>
+                            <option value="At Counter">At Counter</option>
+                        </select><br><br>
+                &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<label for="Pass collection center"><b>Center at which <br>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;you want to Collect <br>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Pass:</b></label>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;  <select name="Pass collection center" id="Pass collection center">
+                        <option value="-----Select-----">-----Select-----</option>
+                        <option value="hyderabad">HYDERABAD</option>
+                        </select>
+
+            </fieldset>
+            <br><br>
+            <center><input type="Submit" value="submit"></center>
+        
+    </form>
+
+</body>
+
+</html>
